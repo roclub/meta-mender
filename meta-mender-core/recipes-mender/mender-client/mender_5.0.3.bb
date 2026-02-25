@@ -11,13 +11,13 @@ require mender_5.x.inc
 
 SRC_URI = "gitsm://github.com/mendersoftware/mender;protocol=https;branch=5.0.x"
 
-# Tag: 5.0.0
-SRCREV = "47313c6d30db1da2d24ee099b72e0917d2b82254"
+# Tag: 5.0.3
+SRCREV = "729b3afdcdce99a06a2a059826648477f39ac904"
 
 # Enable this in Betas, and in branches that cannot carry this major version as
 # default.
 # Downprioritize this recipe in version selections.
-DEFAULT_PREFERENCE = "-1"
+#DEFAULT_PREFERENCE = "-1"
 
 ################################################################################
 
@@ -26,7 +26,7 @@ DEFAULT_PREFERENCE = "-1"
 # releases, we must check the LIC_FILES_CHKSUM.sha256 file, not the LICENSE
 # file.
 LIC_FILES_CHKSUM = " \
-    file://LICENSE;md5=30b4554c64108561c0cb1c57e8a044f0 \
+    file://LICENSE;md5=f92624f2343d21e1986ca36f82756029 \
     file://src/common/vendor/yaml-cpp/test/gtest-1.11.0/googlemock/scripts/generator/LICENSE;md5=2c0b90db7465231447cf2dd2e8163333 \
     file://src/common/vendor/json/LICENSE.MIT;md5=67f35caa1c9c8d3d990356bfecf802fb \
     file://src/common/vendor/json/docs/mkdocs/docs/home/license.md;md5=a30fca2d241ce1bc9c268fc2bb7cca74 \
